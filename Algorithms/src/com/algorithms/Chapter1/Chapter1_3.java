@@ -4,8 +4,6 @@ import java.util.Date;
 import java.util.Iterator;
 import java.util.Stack;
 
-import com.algorithms.Chapter1_4.Stopwatch;
-
 public class Chapter1_3 {
 	public static void main(String[] args) {
 //		String[] arr = {"(", "1", "+", "(" , "(" , "2" , "+" , "3" , ")" , "*" , "(" , "4" , "*" , "5" , ")" , ")" , ")"};
@@ -43,14 +41,10 @@ public class Chapter1_3 {
 		}
 		
 		//E1_3_27
-		Stopwatch s = new Stopwatch();
 		System.out.println("最大的数为：" + link.max());
-		System.out.println("time1:" + s.elapsedTime());
 		
 		//E1_3_28
-		s.setStart();
 		System.out.println("递归最大的数为：" + link.max(link.first, 0));
-		System.out.println("time1:" + s.elapsedTime());
 	}
 	
 	
